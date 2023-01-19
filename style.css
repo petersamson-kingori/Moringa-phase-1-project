@@ -1,3 +1,7 @@
-*{
+#display-div{
     color: brown;
+}
+
+#review-div{
+    color: rgb(12, 237, 128);
 }
