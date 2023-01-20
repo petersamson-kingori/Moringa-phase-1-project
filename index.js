@@ -1,15 +1,12 @@
-document.addEventListener('DOMContentLoaded',()=>{
 
-    fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project')
-    .then((response) => response.json())
-    .then((location) => console.log(location));
-    
+// Your code here
 
-    Hello = document.getElementById('Title')
-    Hello.textContent = "Hello World"
-    
-    Title = document.getElementById("img-title")
-    
-
-    
+document.addEventListener("DOMContentLoaded",()=>{
+    console.log("Content Loaded bro");
+    showMovies()
 })
+function showMovies(){
+    fetch("https://my-json-server.typicode.com/petersamson-kingori/phase1-project")
+  .then(response => response.json())
+  .then(location => { 
+    console.log(location)})}
