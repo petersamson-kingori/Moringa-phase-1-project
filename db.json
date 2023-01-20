@@ -5,14 +5,28 @@
       "title": "Kenyatta International Convention Centre",
       "description": "The Kenyatta International Convention Centre (KICC), formerly the Kenyatta International Conference Centre, is a 28-story building located in Nairobi, Kenya. The KICC is located in the City Square of Nairobi, and is a crucial address for a number of Government offices, including those of recently elected Senators.[6] It is an internationally renowned venue for conferences, meetings, exhibitions and special events within walking distance of several five star hotels. During its four-and-a-half-decade history it has been the host of several international conferences, seminars, exhibitions and summits.",
       "source": "https://en.wikipedia.org/wiki/Kenyatta_International_Convention_Centre",
-      "image_url": "https://iili.io/HcYXqJI.jpg"
+      "image_url": "https://iili.io/HcYXqJI.jpg",
+      "review":{
+        "reviews": [ 
+          {"person1":"thing",
+           "person2":"thing2"
+        }
+        ]
+      }
     },
     {
       "id": "2",
-      "title": "Kenyatta International Convention Centre",
-      "description": "The Kenyatta International Convention Centre (KICC), formerly the Kenyatta International Conference Centre, is a 28-story building located in Nairobi, Kenya. The KICC is located in the City Square of Nairobi, and is a crucial address for a number of Government offices, including those of recently elected Senators.[6] It is an internationally renowned venue for conferences, meetings, exhibitions and special events within walking distance of several five star hotels. During its four-and-a-half-decade history it has been the host of several international conferences, seminars, exhibitions and summits.",
+      "title": "National Museum",
+      "description":"https://en.wikipedia.org/wiki/National_Museums_of_Kenya",
       "source": "https://en.wikipedia.org/wiki/Kenyatta_International_Convention_Centre",
-      "poster": "https://en.wikipedia.org/wiki/File:KICC_nairobi_kenya.jpg"
+      "image_url": "https://iili.io/HcVrdrJ.jpg",
+      "review":{
+        "reviews": [ 
+          {"person1":"thing",
+           "person2":"thing2"
+        }
+        ]
+      }
     }
 
     

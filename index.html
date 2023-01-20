@@ -18,24 +18,32 @@
         <div id ="display-div">
             <img id="image" src="" width="300" height="300">
             <h2 id="img-title"></h2>
+            <button id="next">Next</button>
             <P id="img-description"></P>
         </div>
         <div id="reviews-div">
             <h2 class ="review-header">Been Here? <br>
             Write a review</h2>
-            <form id="reviews-form">
-                <label for="name">Name:</label>
-                <input type="text" id = "name" name = "name"><br>
-                <label for="review">Review:</label>
-                <input type="Review" id = "review" name = "review">
-    
-            </form>
+
+
+        <form class = "form"id="review-form" >
+
+        
+        
+          <label for="review">Your Review:</label>
+          <textarea id="review"></textarea>
+          <button type="submit">Add review</button>
+        </form>
         </div>
 
     </div>
-<div>
-    <h1>Reviews</h1>
-</div>
+    <div>
+        <h3>Customer Reviews</h3>
+        <ul id="review-list">
+          <li>Really loved the palce</li>
+          <li>Love</li>
+        </ul>
+    </div>
 
    
 
