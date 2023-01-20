@@ -1,7 +1,60 @@
-#display-div{
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+
+body{
+  font-family: 'JetBrains Mono', monospace;
 }
 
-#review-div{
-    color: rgb(12, 237, 128);
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+.Title{
+  font-family: 'JetBrains Mono', monospace;
+ font-weight: 600;
+
 }
+
+
+
+#container {
+    display: flex;
+}
+#display-div, #reviews-div {
+    flex: 1; 
+    display: inline-block;
+    width:50%;
+}
+
+
+ 
+
+  #display-div{
+    float: left;
+  }
+
+  #reviews-form{
+    float: left;
+
+  }
+  #name{
+    margin: 30px;
+    width: 500px;
+    height: 50px;
+  }
+
+  #review{
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+  }
+
+  .review-header{
+    padding-left: 30%;
+  }
+  .logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    margin-right: 10px;
+  } 

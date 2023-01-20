@@ -2,20 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Permissions-Policy" content="interest-cohort *">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Review</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1 id="Title"></h1>
-    <div id="display-div">
-        <img src="Resources/Rectangle 4.png" alt="" srcset="">
-        <h2 id="img-title">KICC</h2>
-        <P id="img-description"> lorem ipsum</P>
+    <nav>
+        <div class="logo-placeholder"></div>
+        <h1 class ="Title">Review Places in Kenya</h1>
+        
+      </nav>
+
+    <div id = "container">
+        <div id ="display-div">
+            <img id="image" src="" width="300" height="300">
+            <h2 id="img-title"></h2>
+            <P id="img-description"></P>
+        </div>
+        <div id="reviews-div">
+            <h2 class ="review-header">Been Here? <br>
+            Write a review</h2>
+            <form id="reviews-form">
+                <label for="name">Name:</label>
+                <input type="text" id = "name" name = "name"><br>
+                <label for="review">Review:</label>
+                <input type="Review" id = "review" name = "review">
+    
+            </form>
+        </div>
+
     </div>
-    <div id="reviews-div"></div>
+<div>
+    <h1>Reviews</h1>
+</div>
+
+   
 
     
     <script src="./index.js"></script>
