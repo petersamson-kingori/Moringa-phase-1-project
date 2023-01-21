@@ -2,13 +2,12 @@
 // Your code here
 
 document.addEventListener("DOMContentLoaded",()=>{
-  console.log("You got this bro")
-    showMovies()
+    showdata()
 })
 
 
 
-function showMovies(){
+function showdata(){
   fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project/location') // fetch the json data
   .then(response => response.json())
   .then(data => {
@@ -29,23 +28,36 @@ function showMovies(){
   ) 
    nextButton = document.getElementById('next')
     nextButton.addEventListener("click",()=>{
+      console.log("clicked")
       fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project/location') 
       .then(response => response.json())
       .then(data => {
-        locations = data
-        const Title = document.getElementById('img-title')
-        Title.textContent = locations[1].title
-        const img = document.getElementById("image");
-        img.src = "https://iili.io/HcVrdrJ.jpg"
-        const description = document.getElementById("img-description")
-        description.textContent = locations[1].description
+        data.forEach(location => {
+          Title = document.getElementById('img-title')
+          Title.textContent = location.title;
+          const description = document.getElementById("img-description")
+          description.textContent = location.description
+          const img = document.getElementById("image");
+          img.src = location.image_url
 
-
+          
+        })
+       
         
+        
+        
+        
+        
+
+
+
       })
     }
     )
   }
+
+  
+
      
 
   
