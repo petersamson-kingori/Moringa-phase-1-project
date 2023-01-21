@@ -42,13 +42,19 @@ nav {
     width: 500px;
     height: 50px;
   }
-
-  #review{
-    margin: 20px;
-    width: 500px;
-    height: 200px;
+  button{
+    background-color: chartreuse;
+    outline: none;
   }
 
+  #review{
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+  }
+.comments{
+  padding-left: 250px;
+}
   .review-header{
     padding-left: 30%;
   }

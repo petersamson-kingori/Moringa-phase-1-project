@@ -5,6 +5,22 @@ document.addEventListener("DOMContentLoaded",()=>{
     showdata()
 })
 
+function showmenu(){
+  fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project/location') // fetch the json data
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(location=>{
+      menu = getElementById("menu") 
+      item = document.createElement("li")
+      item.textContent =location.title
+      menu.appendChild(item)
+      
+
+    })
+  })
+
+}
+
 
 
 function showdata(){
