@@ -6,13 +6,7 @@
       "description": "The Kenyatta International Convention Centre (KICC), formerly the Kenyatta International Conference Centre, is a 28-story building located in Nairobi, Kenya. The KICC is located in the City Square of Nairobi, and is a crucial address for a number of Government offices, including those of recently elected Senators.[6] It is an internationally renowned venue for conferences, meetings, exhibitions and special events within walking distance of several five star hotels. During its four-and-a-half-decade history it has been the host of several international conferences, seminars, exhibitions and summits.",
       "source": "https://en.wikipedia.org/wiki/Kenyatta_International_Convention_Centre",
       "image_url": "https://iili.io/HcYXqJI.jpg",
-      "review":{
-        "reviews": [ 
-          {"person1":"thing",
-           "person2":"thing2"
-        }
-        ]
-      }
+      "review":""
     },
     {
       "id": "2",
@@ -20,15 +14,20 @@
       "description":"The National Museums of Kenya (NMK) is a state corporation that manages museums, sites and monuments in Kenya. It carries out heritage research, and has expertise in subjects ranging from palaeontology, archeology, ethnography and biodiversity research and conservation. Its headquarters and the National Museum (Nairobi National Museum) are located on Museum Hill, near Uhuru Highway between Central Business District and Westlands in Nairobi.",
       "source": "https://en.wikipedia.org/wiki/Kenyatta_International_Convention_Centre",
       "image_url": "https://iili.io/HcVrdrJ.jpg",
-      "review":{
-        "reviews": [ 
-          {"person1":"thing",
-           "person2":"thing2"
-        }
-        ]
-      }
+      "review":""
+    },
+    {
+      "id": "3",
+      "title": "Bomas of Kenya",
+      "description":"Bomas of Kenya is a tourist village in Langata, Nairobi. Bomas (homesteads) displays traditional villages belonging to the several Kenyan tribes. Bomas of Kenya is home to one of largest auditorium in Africa. It is located approximately 10km from the Central Business District.",
+      "source": "https://en.wikipedia.org/wiki/Kenyatta_International_Convention_Centre",
+      "image_url": "https://iili.io/HcVrdrJ.jpg",
+      "review":"" 
     }
+    
+    
 
     
   ]
 }
+

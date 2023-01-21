@@ -41,6 +41,7 @@ function showMovies(){
         description.textContent = locations[1].description
 
 
+        
       })
     }
     )
