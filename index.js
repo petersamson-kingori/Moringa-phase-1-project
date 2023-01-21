@@ -29,38 +29,31 @@ function showMovies(){
   ) 
    nextButton = document.getElementById('next')
     nextButton.addEventListener("click",()=>{
-      fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project/location') // fetch the json data
+      fetch('https://my-json-server.typicode.com/petersamson-kingori/Moringa-phase-1-project/location') 
       .then(response => response.json())
       .then(data => {
+        locations = data
         const Title = document.getElementById('img-title')
         Title.textContent = locations[1].title
         const img = document.getElementById("image");
         img.src = "https://iili.io/HcVrdrJ.jpg"
+        const description = document.getElementById("img-description")
         description.textContent = locations[1].description
 
 
       })
-
+    }
+    )
+  }
      
 
   
 
-  
-})
-}
-nextButton = document.getElementById('next')
-nextButton.addEventListener("click",()=>{
-
-const Title = document.getElementById('img-title')
-Title.textContent = locations[1].title
-const img = document.getElementById("image");
-img.src = "https://iili.io/HcVrdrJ.jpg"
-description.textContent = locations[1].description 
 
 
 
 
-})
+
 let reviewList = document.getElementById("review-list");
 let reviewForm = document.getElementById("review-form");
 reviewForm.addEventListener("submit", function(event) {
